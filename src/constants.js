@@ -235,8 +235,8 @@ export const projects = [
             "Personal portfolio website showcasing my experience, projects, and skills as a React developer. Built with a focus on performance, responsive design, and clean UI.",
         image: aesthetidocsLogo,
         tags: ["HTML", "CSS", "JavaScript", "React JS", "Tailwind CSS"],
-        github: "https://github.com/sanjaymalviyaaa8",
-        webapp: "https://www.aesthetidocs.com/",
+        github: "https://github.com/sanjaymalviyaaa8/my-portfolio",
+        webapp: "https://sanjay-malviya.vercel.app/",
     },
 ];
 
