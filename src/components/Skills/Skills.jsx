@@ -29,7 +29,7 @@ const Skills = () => (
             {category.title}
           </h3>
 
-          {/* Skill Items - 3 per row on larger screens */}
+          {/* Skill Items - 2 per row on every screen */}
           <Tilt
             key={category.title}
             tiltMaxAngleX={20}
@@ -39,7 +39,7 @@ const Skills = () => (
             transitionSpeed={1000}
             gyroscope={true}
           >
-            <div className="grid grid-cols-2 sm:grid-cols-3 gap-3 w-full">
+            <div className="grid grid-cols-2 gap-3 w-full">
               {category.skills.map((skill) => (
                 <div
                   key={skill.name}

@@ -63,6 +63,7 @@ import imagesearchLogo from './assets/work_logo/image_search.png';
 import removebgLogo from './assets/work_logo/remove_bg.png';
 import leankorLogo from './assets/work_logo/leankor.png';
 import aesthetidocsLogo from './assets/work_logo/aesthetidocs.png';
+import portfolioLogo from './assets/work_logo/portfolio.png';
 
 
 export const SkillsInfo = [
@@ -233,7 +234,7 @@ export const projects = [
         title: "Personal Portfolio Website",
         description:
             "Personal portfolio website showcasing my experience, projects, and skills as a React developer. Built with a focus on performance, responsive design, and clean UI.",
-        image: aesthetidocsLogo,
+        image: portfolioLogo,
         tags: ["HTML", "CSS", "JavaScript", "React JS", "Tailwind CSS"],
         github: "https://github.com/sanjaymalviyaaa8/my-portfolio",
         webapp: "https://sanjay-malviya.vercel.app/",
